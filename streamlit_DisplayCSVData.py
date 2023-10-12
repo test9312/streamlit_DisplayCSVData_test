@@ -11,7 +11,7 @@ Created on Mon May 22 08:58:05 2023
 import streamlit as st
 import pandas as pd
 
-st.title('黑蛋，您好！')
+st.title('主賓小老弟，你看看!')
 uploaded_csv = st.file_uploader('選擇您要上傳的CSV檔')
 
 if uploaded_csv is not None:
@@ -21,4 +21,4 @@ if uploaded_csv is not None:
 
 st.balloons()
 st.snow()
-st.warning('This is a warning', icon="⚠️")
+
