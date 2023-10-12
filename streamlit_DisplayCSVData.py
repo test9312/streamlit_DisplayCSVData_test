@@ -24,5 +24,5 @@ st.snow()
 
 from streamlit_extras.let_it_rain import rain
 
-rain(emoji="💀", font_size: int = 64, falling_speed: int = 5, animation_length = 'infinite')
+rain(emoji="💀", font_size = 64, falling_speed = 5, animation_length = 'infinite')
 
