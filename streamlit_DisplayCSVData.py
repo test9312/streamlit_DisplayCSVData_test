@@ -22,3 +22,7 @@ if uploaded_csv is not None:
 st.balloons()
 st.snow()
 
+from streamlit_extras.let_it_rain import rain
+
+@keyframes emojis-shake {{
+
