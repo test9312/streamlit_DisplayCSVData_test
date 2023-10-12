@@ -11,7 +11,7 @@ Created on Mon May 22 08:58:05 2023
 import streamlit as st
 import pandas as pd
 
-st.title(':cry:  主賓小老弟，你看看!  :sunglasses:')
+st.title(':cry:  老弟，你看看!  :sunglasses:')
 uploaded_csv = st.file_uploader('選擇您要上傳的CSV檔')
 
 if uploaded_csv is not None:
@@ -24,5 +24,5 @@ st.snow()
 
 from streamlit_extras.let_it_rain import rain
 
-@keyframes emojis-shake {{
+rain(emoji="💀")
 
