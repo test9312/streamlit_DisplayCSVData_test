@@ -18,3 +18,7 @@ if uploaded_csv is not None:
     df = pd.read_csv(uploaded_csv)
     st.header('您所上傳的CSV檔內容：')
     st.dataframe(df)
+
+st.balloons()
+st.snow()
+st.warning('This is a warning', icon="⚠️")
