@@ -22,7 +22,6 @@ if uploaded_csv is not None:
 st.balloons()
 st.snow()
 
-@extra
 def rain(
     emoji: str,
     font_size: int = 64,
