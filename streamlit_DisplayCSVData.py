@@ -10,7 +10,7 @@ Created on Mon May 22 08:58:05 2023
 # 檔名是 streamlit_DisplayData.py
 import streamlit as st
 import pandas as pd
-st.snow()
+
 st.title('黑蛋，您好！')
 uploaded_csv = st.file_uploader('選擇您要上傳的CSV檔')
 
